@@ -100,7 +100,6 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     
   );
-
   courseCards.forEach((card) => observer.observe(card));
 });
 document.addEventListener("DOMContentLoaded", () => {

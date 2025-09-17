@@ -17,7 +17,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(10, 10, 10, 0.9);
+  background: rgba(33, 33, 33, 0.9);
   backdrop-filter: blur(8px);
   box-shadow: 0 3px 15px rgb(225, 206, 0);
   z-index: 1000;
@@ -38,7 +38,7 @@ header {
   font-size: 1.5rem;
   font-weight: 700;
   background: linear-gradient(90deg, #ff3c7d, #ffb347, #00e1ff);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientMove 5s infinite linear;
   background-size: 200%;
@@ -210,9 +210,9 @@ header.scrolled {
 
 .hero-title span {
   background: linear-gradient(90deg, #ff3c7d, #ffb347, #00e1ff);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradientMove 5s infinite linear;
+  animation: ajmal 5s infinite linear;
   background-size: 200%;
 }
 
@@ -297,7 +297,7 @@ header.scrolled {
 
 .section-title span {
   background: linear-gradient(90deg, #ff3c7d, #ffb347, #00e1ff);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientMove 5s infinite linear;
   background-size: 200%;
@@ -766,7 +766,7 @@ header.scrolled {
   font-weight: 700;
   margin-bottom: 20px;
   background: linear-gradient(90deg, #ff3c7d, #ffb347, #00e1ff);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: gradientMove 5s linear infinite;
   background-size: 200%;
