@@ -19,7 +19,7 @@ header {
   width: 100%;
   background: rgba(10, 10, 10, 0.9);
   backdrop-filter: blur(8px);
-  box-shadow: 0 3px 15px rgba(0,0,0,0.6);
+  box-shadow: 0 3px 15px rgb(225, 206, 0);
   z-index: 1000;
   transition: all 0.4s ease;
 }

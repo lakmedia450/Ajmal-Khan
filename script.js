@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const courseCards = document.querySelectorAll(".course-card");
 
-  const observer = new IntersectionObserver(
+  const observer = new IntersectionObserver( 
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     },
-    { threshold: 0.2 }
+    
   );
 
   courseCards.forEach((card) => observer.observe(card));
